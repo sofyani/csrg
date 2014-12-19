@@ -1,0 +1,312 @@
+* {
+	margin: 0;
+}
+
+html {
+	font-family: "Segoe UI", Helvetica, sans-serif;
+}
+	.site-header {
+			background: url(star.png) no-repeat scroll top;
+			background-size: cover;
+		}
+			.site-title,
+		    .site-description {
+			color: #ffffff;
+		}
+body {
+	color: #141412;
+	line-height: 1.5;
+	background:url(bg.jpg) repeat-y top center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.logo {
+    margin: 0;
+}
+.logo img {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.logo2 img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #ac0404;
+}
+
+a:focus {
+	outline: thin dotted;
+}
+
+a:hover {
+	color: #ea9629;
+	outline: 0;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h1,
+h2,
+h3 {
+	clear: both;
+	font-family: Segoe UI, serif;
+	line-height: 1.3;
+}
+
+menu,
+ol,
+ul {
+	margin: 16px 0;
+	padding: 0 0 0 40px;
+}
+
+ul {
+	list-style-type: square;
+}
+
+nav ul,
+nav ol {
+	list-style: none;
+	list-style-image: none;
+}
+
+li > ul,
+li > ol {
+	margin: 0;
+}
+
+.site-main {
+	position: relative;
+}
+
+.site-main .sidebar-container {
+	height: 0;
+	position: absolute;
+	top: 40px;
+	width: 100%;
+	z-index: 1;
+}
+
+.site-main .sidebar-inner {
+	margin: 0 auto;
+	max-width: 1040px;
+}
+
+
+.site-header {
+	position: relative;
+}
+
+.site-header .home-link {
+	color: #141412;
+	display: block;
+	margin: 0 auto;
+	max-width: 1080px;
+	min-height: 230px;
+	padding: 0 20px;
+	text-decoration: none;
+	width: 100%;
+}
+
+.site-header .site-title:hover {
+	text-decoration: underline;
+}
+
+.site-title {
+	text-shadow: #111 2px 1px 0px;
+	font-size: 60px;
+	font-weight: bold;
+	line-height: 1;
+	margin: 0;
+	padding: 58px 0 10px;
+}
+
+.site-description {
+	font: 300 italic 24px "Segoe UI", Helvetica, sans-serif;
+	margin: 0;
+}
+
+
+/**
+ *  Navigasi
+ * ----------------------------------------------------------------------------
+ */
+
+.main-navigation {
+	clear: both;
+	margin: 0 auto;
+	max-width: 1080px;
+	min-height: 45px;
+	position: relative;
+}
+
+ul.nav-menu,
+div.nav-menu > ul {
+	margin: 0;
+	padding: 0 40px 0 0;
+}
+
+.nav-menu li {
+	display: inline-block;
+	position: relative;
+}
+
+.nav-menu li a {
+	color: #141412;
+	display: block;
+	font-size: 20px;
+	line-height: 1;
+	padding: 15px 20px;
+	text-decoration: none;
+}
+
+.nav-menu li:hover > a,
+.nav-menu li a:hover,
+.nav-menu li:focus > a,
+.nav-menu li a:focus {
+	background-color: #220e10;
+	color: #fff;
+}
+
+.nav-menu .sub-menu,
+.nav-menu .children {
+	background-color: #220e10;
+	border: 2px solid #f7f5e7;
+	border-top: 0;
+	padding: 0;
+	position: absolute;
+	left: -2px;
+	z-index: 99999;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+	clip: rect(1px, 1px, 1px, 1px);
+}
+
+.nav-menu .sub-menu ul,
+.nav-menu .children ul {
+	border-left: 0;
+	left: 100%;
+	top: 0;
+}
+
+ul.nav-menu ul a,
+.nav-menu ul ul a {
+	color: #fff;
+	margin: 0;
+	width: 200px;
+}
+
+ul.nav-menu ul a:hover,
+.nav-menu ul ul a:hover,
+ul.nav-menu ul a:focus,
+.nav-menu ul ul a:focus {
+	background-color: #db572f;
+}
+
+ul.nav-menu li:hover > ul,
+.nav-menu ul li:hover > ul,
+ul.nav-menu .focus > ul,
+.nav-menu .focus > ul {
+	clip: inherit;
+	overflow: inherit;
+	height: inherit;
+	width: inherit;
+}
+
+.nav-menu .current_page_item > a,
+.nav-menu .current_page_ancestor > a,
+.nav-menu .current-menu-item > a,
+.nav-menu .current-menu-ancestor > a {
+	color: #bc360a;
+	font-style: italic;
+}
+
+.menu-toggle {
+	display: none;
+}
+
+/* Navbar */
+.navbar {
+	background-color: #f7f5e7;
+	margin: 0 auto;
+	max-width: 1600px;
+	width: 100%;
+}
+
+.site-header .search-field:focus {
+	background-color: #fff;
+	border: 2px solid #c3c0ab;
+	cursor: text;
+	outline: 0;
+	width: 230px;
+}
+
+
+/**
+ * Konten
+ * ----------------------------------------------------------------------------
+ */
+ 
+ 
+.content {
+	padding: 0 90px 0 80px;
+	margin: auto;
+	opacity:.7;
+    background: rgba(255, 255, 255, 0.7);
+    border: 1px solid #fff;
+    border-radius: 70px 0 70px 0;
+}
+
+form{
+	margin: 10px 0;
+	padding: 10px;
+	background: #fff;
+	border: 1px solid #CCC;
+	border-radius:70px 5px 70px 5px;
+	box-shadow: 0px 1px 0px #fff;
+}
+input{
+	margin: 2px 0 20px 0;
+	padding: 10px;
+	font-size: 18px;
+	border: 1px solid #CCC;
+	box-shadow: 0px 1px 0px #fff;
+	border-radius: 6px;
+}
+
+input,select, textarea{
+	margin: 0;
+	padding: 8px;
+	color:#fff;
+	border: 1px solid #CCC;
+	box-shadow: 0px 1px 0px #fff;
+	border-radius: 6px;
+	background: #cc3300;
+	cursor: pointer;
+}
+input, select:hover{
+	color:#fff;
+	background: #cc2200;
+	border: 1px solid #555;
+}
+
+.footer{
+	text-align:center;
+	color:#fff;
+	width:80%;
+	margin:auto;
+	padding: 10px 30px 10px 30px;
+	border: 0px solid #000;
+	border-radius:20px 20px 5px 5px;
+	background: #cc3300;
+}
